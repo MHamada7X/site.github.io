@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.lightbg, .orangebg, .darkbg {
+  width: 100%;
+  height: 33.34vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  
+  .lightbg {
+    background: #E4EBF5; }
+
+  .orangebg {
+    background: #b55500; }
+
+.darkbg {
+  background: #171717; }
+
+.light, .orange, .dark {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px; }
+
+.light {
+  box-shadow: .3rem .3rem .6rem #c8d0e7, -.2rem -.2rem .5rem #fff; }
+  .light:active {
+    box-shadow: inset .2rem .2rem .5rem #c8d0e7, inset -.2rem -.2rem .5rem #fff; }
+
+.orange {
+  box-shadow: .3rem .3rem .6rem #a30, -.2rem -.2rem .5rem #c60; }
+  .orange:active {
+    box-shadow: inset .2rem .2rem .5rem #a30, inset -.2rem -.2rem .5rem #c60; }
+
+.dark {
+  box-shadow: .3rem .3rem .6rem #121212, -.2rem -.2rem .5rem #252525; }
+  .dark:active {
+    box-shadow: inset .2rem .2rem .5rem #121212, inset -.2rem -.2rem .5rem #252525; }
+
+/*# sourceMappingURL=NeomorphicStyle.css.map */

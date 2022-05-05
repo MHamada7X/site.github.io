@@ -1,0 +1,65 @@
+* {
+    margin: 20px;
+    background: #151515;
+    color: var(--global-color);
+    text-align: center;
+    --global-color: #bbb97a;
+    --hover-color: #666423;
+}
+
+.form {
+    padding: 0;
+    position: relative;
+    height: 40vh;
+    width: 50vw;
+    margin-left: 23%;
+    border: 2px solid var(--global-color);
+    display: grid;
+    columns: 10vw 10vw auto;
+}
+
+#na {
+    width: 10vw;
+}
+
+#em {
+    width: 23vw;
+}
+
+#pass {
+    width: 10vw;
+}
+
+#na, #em, #pass {
+    text-align: left;
+    padding-left: 10px;
+    height: 3vh;
+    border: 2px solid var(--global-color);
+    box-shadow: 0 0 5px var(--global-color), 0 0 10px var(--global-color), 0 0 20px var(--global-color);
+}
+
+#na:focus , #em:focus, #pass:focus {
+    border: 2px solid #f00;
+    color: #f00;
+    box-shadow: 0 0 5px #f00, 0 0 10px #f00, 0 0 20px #f00;
+}
+
+#btn {
+    width: 7vw;
+    height: 3vh;
+    position: absolute;
+    bottom: 0;
+    right: 14%;
+    box-shadow: 0 0 5px var(--global-color), 0 0 10px var(--global-color), 0 0 20px var(--global-color);
+    border-radius: 7px;
+}
+
+#btn:active {
+    color: #111;
+    background: #f00;
+    box-shadow: 0 0 #111;
+}
+
+input:focus {
+    outline: none;
+}

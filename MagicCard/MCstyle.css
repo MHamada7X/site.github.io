@@ -1,0 +1,53 @@
+body {
+  background: #222235;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+div {
+  width: 23vw;
+  height: 80vh;
+  border: 7px solid #09f;
+  border-radius: 12px;
+  background: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px #059, 0 0 50px #059;
+  animation: spin 3s linear infinite;
+  transition:.5s;
+}
+
+div > p {
+  display: none;
+}
+
+div:hover {
+  border: none;
+  box-shadow: none;
+  border-radius: 15px;
+  animation: none;
+}
+
+div:hover > p {
+  display: block;
+  color: #09f;
+  font-size: 2.5vw;
+}
+
+@keyframes spin {
+  0% {
+    box-shadow: 0 0 50px #059, 0 0 100px #059;
+  }
+  50% {
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div {
+    height: 60vh;
+  }
+}

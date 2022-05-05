@@ -1,0 +1,85 @@
+body {
+  background: #111;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.phone {
+  position: relative;
+  border: .14vw solid #000;
+  width: 16.8vw;
+  height: 33.5vw;
+  background: url('https://images.pexels.com/photos/848117/pexels-photo-848117.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') center;
+  background-size: 28vw 40vw;
+  border-radius: 1.5vw;
+  box-shadow: inset 1px -1px 5px #556;
+}
+
+.pow {
+  position: absolute;
+  top: 12.7vh;
+  right: -.33vw;
+  width: 3.7vw;
+  height: 4.5vh;
+  background: linear-gradient(0deg, #080808, #1c1c1c);
+  border: .14vw solid #272727;
+  border-radius: 7%;
+  z-index: -1;
+}
+
+.vol {
+  position: absolute;
+  left: -.33vw;
+  top: 8vh;
+  width: 3.7vw;
+  height: 6vh;
+  background: linear-gradient(0deg, #080808, #1c1c1c);
+  border: .14vw solid #272727;
+  border-radius: 7px;
+  z-index: -1;
+}
+
+.down {
+  top: 14.8vh;
+}
+
+.notch {
+  position: absolute;
+  top: .2vh;
+  left: 25%;
+  width: 8.7vw;
+  height: 25px;
+  height: 2.7vh;
+  border: 2px solid #1c1c1c;
+  background: #1c1c1c;
+  border-radius: 5px 5px 12px 12px;
+  border-radius: .3vw .3vw .9vw .9vw;
+}
+
+.spkr {
+  position: absolute;
+  top: 22%;
+  left: 15%;
+  background: #000;
+  width: 45%;
+  height:  28%;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+
+.flash {
+  position: absolute;
+  top: 21%;
+  right: 13%;
+  background: #fff;
+  width: .33vw;
+  height: .33vw;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff;
+}
